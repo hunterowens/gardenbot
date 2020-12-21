@@ -1,0 +1,60 @@
+name: Build and deploy site
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build_and_deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Check out repo
+      uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
+    - name: Set up Python
+      uses: actions/setup-python@v1
+      with:
+        python-version: 3.8
+    - name: Install sqlite3
+      run: sudo apt-get install sqlite3
+    - uses: actions/cache@v1
+      name: Configure pip caching
+      with:
+        path: ~/.cache/pip
+        key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+        restore-keys: |
+          ${{ runner.os }}-pip-
+    - name: Install Python dependencies
+      run: |-
+        pip install -r requirements.txt
+    - name: Build browse.db database
+      run: |-
+        wget https://niche-museums-j7hipcg4aq-uc.a.run.app/browse.db
+        yaml-to-sqlite browse.db museums museums.yaml --pk=id
+    - name: Set up Cloud Run
+      uses: google-github-actions/setup-gcloud@master
+      with:
+        version: '275.0.0'
+        service_account_email: ${{ secrets.GCP_SA_EMAIL }}
+        service_account_key: ${{ secrets.GCP_SA_KEY }}
+    - name: Deploy to Cloud Run
+      run: |-
+        gcloud config set run/region us-west1
+        gcloud config set project gardenbot-299305
+        datasette publish cloudrun browse.db \
+          --service niche-museums \
+          --metadata metadata.yaml \
+          --install=datasette-haversine \
+          --install=datasette-pretty-json \
+          --install=datasette-template-sql \
+          --install=datasette-json-html \
+          --install=datasette-render-markdown \
+          --install=datasette-cluster-map>=0.13 \
+          --install=datasette-atom>=0.6 \
+          --template-dir=templates \
+          --plugins-dir=plugins \
+          --static static:static/ \
+          --extra-options "--config force_https_urls:1"
+
