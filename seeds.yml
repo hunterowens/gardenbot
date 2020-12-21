@@ -1,0 +1,704 @@
+- id: 0
+  ideal_temp: 45-65
+  min_full_sun: 6-12H
+  plant_spacing: 8in
+  season:
+  - fall
+  - winter
+  - spring
+  seed_name: scarlet kale
+  year_produced: '2020'
+- days_to_harvest: fall/winter/spring
+  id: 1
+  season:
+  - unknown
+  seed_name: linsay la lettuce
+  year_produced: '2020'
+- days_to_harvest: '50'
+  id: 2
+  ideal_temp: 50-80
+  plant_spacing: 4-6in
+  season:
+  - fall
+  - winter
+  - spring
+  - summer
+  seed_name: bok choi white taisai
+  year_produced: '2020'
+- days_to_harvest: 50-65
+  id: 3
+  ideal_temp: 65-75
+  min_full_sun: full sun
+  plant_spacing: 6-8in
+  season:
+  - fall
+  - winter
+  - spring
+  seed_name: suiho chinese kale
+  year_produced: '2020'
+- id: 4
+  ideal_temp: 60-70
+  min_full_sun: sun/part shade
+  plant_spacing: .5in
+  season:
+  - perennial
+  seed_name: flowering chinese leek
+  year_produced: '2020'
+- days_to_harvest: 40-50
+  id: 5
+  ideal_temp: 50-80
+  min_full_sun: full sun
+  plant_spacing: 1-2in
+  season:
+  - fall
+  - winter
+  - spring
+  seed_name: red tatsoi bok choy
+  year_produced: '2020'
+- id: 6
+  is_flower: 'yes'
+  seed_name: blue dicks
+- id: 7
+  is_flower: 'yes'
+  seed_name: 'arroyo lupine '
+- id: 8
+  seed_name: 'miners lettuce '
+- id: 9
+  seed_name: chia
+- days_to_harvest: 40-45
+  id: 10
+  ideal_temp: 60-80
+  min_full_sun: full sun
+  plant_spacing: 3-4in
+  season:
+  - 'spring '
+  - ' summer '
+  - ' fall'
+  seed_name: Jung Green yu choy
+  year_produced: '2020'
+- id: 11
+  season:
+  - unknown
+  seed_name: scarlet globe radish
+  year_produced: '2017'
+- id: 12
+  ideal_temp: 50-75
+  min_full_sun: 6-8h
+  num_packets: 4.0
+  plant_spacing: 2-3in
+  season:
+  - 'spring '
+  - 'summer '
+  - fall
+  seed_name: cosmic purple carrot
+  year_produced: 2017 / 2019
+- id: 13
+  season:
+  - fall
+  - winter
+  - spring
+  seed_name: chinese luobo radish
+  year_produced: '2018'
+- days_to_harvest: 65-75
+  id: 14
+  plant_spacing: 2-3in
+  season:
+  - 'spring '
+  - ' summer '
+  - ' fall'
+  seed_name: scarlet nantes carrots
+  year_produced: '2019'
+- days_to_harvest: '55'
+  id: 15
+  ideal_temp: 65-70
+  min_full_sun: full sun
+  plant_spacing: 6-8
+  season:
+  - 'fall '
+  - ' spring'
+  seed_name: okayama salad
+  year_produced: '2020'
+- days_to_harvest: 120-140
+  id: 16
+  ideal_temp: 55-75
+  min_full_sun: full sun
+  plant_spacing: 3-4
+  season:
+  - 'fall '
+  - ' winter '
+  - 'spring '
+  - ' summer'
+  seed_name: 'shimonita negi green onion '
+  year_produced: '2020'
+- days_to_harvest: '70'
+  id: 17
+  ideal_temp: 50-85
+  min_full_sun: 'full sun '
+  plant_spacing: 8-10in
+  season:
+  - 'fall winter spring '
+  seed_name: napa WR 70 days cabbage
+  year_produced: '2020'
+- days_to_harvest: '100'
+  id: 18
+  ideal_temp: 50-85
+  min_full_sun: full sun
+  plant_spacing: 8-10
+  season:
+  - 'fall '
+  - ' winter '
+  - 'spring '
+  seed_name: Brunswick Cabbage
+  year_produced: '2019'
+- id: 19
+  season:
+  - unknown
+  seed_name: 'Romanesco Broccoli '
+  year_produced: '2017'
+- days_to_harvest: 45-50
+  id: 20
+  season:
+  - 'fall '
+  - ' winter '
+  - spring
+  seed_name: chinese emperor kale / gai lan
+  year_produced: '2017'
+- id: 21
+  season:
+  - unknown
+  seed_name: swiss chard oriole orange
+  year_produced: '2019'
+- id: 22
+  ideal_temp: 50-60
+  min_full_sun: full_sun
+  plant_spacing: 6-8
+  season:
+  - 'fall '
+  - ' spring'
+  seed_name: achoy - sword leaf lettuce
+  year_produced: '2020'
+- days_to_harvest: '50'
+  id: 23
+  min_full_sun: sun
+  plant_spacing: '2'
+  season:
+  - 'fall '
+  - ' spring '
+  - ' summer'
+  seed_name: 'flash trout black lettuce '
+  year_produced: '2014'
+- days_to_harvest: '50'
+  id: 24
+  min_full_sun: partial_sun
+  plant_spacing: '3'
+  season:
+  - 'fall '
+  - ' spring '
+  - 'summer '
+  - ' winter'
+  seed_name: la dolce vita sprinach
+  year_produced: '2014'
+- days_to_harvest: '50'
+  id: 25
+  season:
+  - 'fall '
+  - ' spring '
+  - ' winter'
+  seed_name: 'bloomsdale long standing spinich '
+  year_produced: '2019'
+- days_to_harvest: 60-80
+  id: 26
+  ideal_temp: 50-95
+  min_full_sun: 'full sun '
+  plant_spacing: 1-2
+  season:
+  - 'fall '
+  - ' spring '
+  - ' winter  '
+  - ' summer'
+  seed_name: 'heshiko green onion / negi '
+  year_produced: '2020'
+- id: 27
+  is_flower: 'yes'
+  seed_name: 'ezscholtize californinica (california poppy) '
+- id: 28
+  is_flower: 'yes'
+  seed_name: phacelia (heliotrope)
+- id: 29
+  min_full_sun: full sun
+  season:
+  - summer
+  seed_name: white wonder cucumber
+  year_produced: '2016'
+- id: 30
+  indertiminate_determinate: inderminate
+  num_packets: 4.0
+  season:
+  - summer
+  seed_name: san marzano tomato
+  year_produced: '2012'
+- days_to_harvest: '65'
+  id: 31
+  min_full_sun: full sun
+  plant_spacing: '8'
+  season:
+  - summer
+  seed_name: eleonora basil
+  year_produced: '2018'
+- id: 32
+  plant_spacing: '8'
+  season:
+  - summer
+  seed_name: sweet basil
+- id: 33
+  min_full_sun: 'full sun '
+  season:
+  - summer
+  seed_name: ciudad victoria tomato
+  year_produced: '2019'
+- id: 34
+  ideal_temp: 70-95
+  min_full_sun: 'full sun '
+  plant_spacing: 12-18
+  season:
+  - summer
+  seed_name: 'noir de carmes musk melon '
+  year_produced: '2018'
+- id: 35
+  is_flower: 'yes'
+  min_full_sun: 'full sun '
+  season:
+  - 'spring '
+  - ' summer'
+  seed_name: sunflower crimson queen
+  year_produced: '2016'
+- id: 36
+  is_flower: 'yes'
+  min_full_sun: 'full sun '
+  plant_spacing: '12'
+  seed_name: california giants zinnia
+- id: 37
+  is_flower: 'yes'
+  seed_name: 'sunflower mamotth grey striped '
+  year_produced: '2017'
+- id: 38
+  is_flower: 'yes'
+  plant_spacing: '24'
+  seed_name: pacific giants delphinium
+  year_produced: '2019'
+- id: 39
+  is_flower: 'yes'
+  min_full_sun: full sun
+  plant_spacing: '24'
+  season:
+  - summer
+  seed_name: sunspot sunflower
+  year_produced: '2019'
+- id: 40
+  season:
+  - 'spring '
+  - summer
+  seed_name: southern ozark razorback pea
+  year_produced: '2017'
+- id: 41
+  ideal_temp: 75-85
+  min_full_sun: full sun
+  plant_spacing: 36-48
+  season:
+  - 'spring '
+  - summer
+  seed_name: narajilla orange
+  year_produced: '2019'
+- id: 42
+  min_full_sun: 8-12
+  season:
+  - 'spring '
+  - summer
+  seed_name: melon melba
+  year_produced: '2017'
+- id: 43
+  min_full_sun: 8-12
+  season:
+  - 'spring '
+  - summer
+  seed_name: summer squash
+  year_produced: '2018'
+- id: 44
+  ideal_temp: 75-90
+  min_full_sun: 8-12
+  plant_spacing: '18'
+  season:
+  - 'spring '
+  - summer
+  seed_name: jing orange okra
+  year_produced: '2019'
+- id: 45
+  season:
+  - 'spring '
+  - summer
+  seed_name: opal basil
+  year_produced: '2019'
+- id: 46
+  seed_name: unknown okra
+- id: 47
+  ideal_temp: 75-95
+  indertiminate_determinate: inderminate
+  min_full_sun: 8-12
+  plant_spacing: '24'
+  season:
+  - summer
+  seed_name: blue cream berry tomatoes
+  year_produced: '2019'
+- id: 48
+  ideal_temp: 75-95
+  indertiminate_determinate: inderminate
+  min_full_sun: 8-12
+  plant_spacing: '24'
+  season:
+  - summer
+  seed_name: 'lucid gem tomatoes '
+  year_produced: '2019'
+- id: 49
+  ideal_temp: 75-95
+  indertiminate_determinate: inderminate
+  min_full_sun: 8-12
+  plant_spacing: '24'
+  season:
+  - summer
+  seed_name: rebekah allen tomato
+  year_produced: '2019'
+- id: 50
+  ideal_temp: 75-95
+  indertiminate_determinate: inderminate
+  min_full_sun: 8-12
+  plant_spacing: '24'
+  season:
+  - summer
+  seed_name: consuleto geonovese tomato
+  year_produced: '2019'
+- id: 51
+  ideal_temp: 75-95
+  indertiminate_determinate: inderminate
+  min_full_sun: 8-12
+  plant_spacing: '24'
+  season:
+  - summer
+  seed_name: green zebra tomato
+  year_produced: '2019'
+- id: 52
+  ideal_temp: 70-90
+  indertiminate_determinate: inderminate
+  min_full_sun: 6-12
+  plant_spacing: '18'
+  season:
+  - summer
+  seed_name: queen of malinlgo tomatillo
+  year_produced: '2019'
+- id: 53
+  ideal_temp: 60-70
+  indertiminate_determinate: inderminate
+  plant_spacing: 14-16
+  season:
+  - summer
+  seed_name: 'red pear franchi tomato '
+  year_produced: '2020'
+- id: 54
+  indertiminate_determinate: inderminate
+  season:
+  - summer
+  seed_name: everglades cherry tomato
+- id: 55
+  ideal_temp: 75-95
+  indertiminate_determinate: inderminate
+  min_full_sun: 8-12
+  plant_spacing: '24'
+  season:
+  - summer
+  seed_name: get stuffed tomato
+  year_produced: '2019'
+- id: 56
+  ideal_temp: 75-95
+  min_full_sun: 8-12
+  plant_spacing: '18'
+  season:
+  - summer
+  seed_name: rio grande verde tomatillo
+  year_produced: '2020'
+- id: 57
+  ideal_temp: 75-95
+  indertiminate_determinate: inderminate
+  min_full_sun: 8-12
+  plant_spacing: '24'
+  season:
+  - summer
+  seed_name: mortgage lifter tomato
+  year_produced: '2020'
+- id: 58
+  ideal_temp: 75-95
+  indertiminate_determinate: determinate
+  min_full_sun: 8-12
+  plant_spacing: '24'
+  season:
+  - summer
+  seed_name: rutgers tomato
+  year_produced: '2019'
+- id: 59
+  ideal_temp: 75-80
+  min_full_sun: 6-12
+  plant_spacing: '12'
+  season:
+  - summer
+  seed_name: fishers earliest corn
+  year_produced: '2019'
+- id: 60
+  ideal_temp: 80-90
+  min_full_sun: full sun
+  plant_spacing: 18-24
+  season:
+  - summer
+  seed_name: taiwanese ping tung long eggplant
+  year_produced: '2020'
+- id: 61
+  ideal_temp: 80-90
+  min_full_sun: full sun
+  plant_spacing: 14-16
+  season:
+  - annual (summer)
+  seed_name: thai pepper prik chi faa
+  year_produced: '2020'
+- days_to_harvest: 45-55
+  id: 62
+  ideal_temp: 50-80
+  notes: heat tolerant bok choy, purple
+  plant_spacing: 4-6
+  season:
+  - 'spring '
+  - ' summer '
+  seed_name: 'bok choy da hong summer '
+  year_produced: '2020'
+- days_to_harvest: 65-95
+  id: 63
+  ideal_temp: 60-75
+  min_full_sun: full sun
+  plant_spacing: 8-10
+  season:
+  - 'spring '
+  - ' summer '
+  - fall
+  seed_name: thai basil
+  year_produced: '2020'
+- days_to_harvest: '70'
+  id: 64
+  ideal_temp: 68-75
+  min_full_sun: full sun
+  plant_spacing: 8-10
+  season:
+  - 'spring '
+  - summer
+  seed_name: genovese basil
+  year_produced: '2020'
+- id: 65
+  notes: '"good as a snack with beer", popular in japanese cooking shows'
+  plant_spacing: 12-14
+  season:
+  - 'spring '
+  - summer
+  seed_name: mizouno takumi japanese eggplant
+  year_produced: '2020'
+- days_to_harvest: '60'
+  id: 66
+  ideal_temp: 65-75
+  notes: will vine
+  plant_spacing: 10-12
+  season:
+  - annual (summer)
+  seed_name: 'malabar spinich '
+  year_produced: '2020'
+- days_to_harvest: 70-90
+  id: 67
+  ideal_temp: 68-75
+  min_full_sun: full sun
+  plant_spacing: 10-12
+  season:
+  - 'spring '
+  - ' summer '
+  seed_name: green leaf holy basil
+  year_produced: '2020'
+- id: 68
+  season:
+  - summer
+  seed_name: cypriot watermelon
+  year_produced: '2020'
+- id: 69
+  min_full_sun: 'full sun '
+  notes: cross polination risk with other okra
+  plant_spacing: 12-18
+  season:
+  - summer
+  seed_name: beck's gardenville okra
+  year_produced: '2020'
+- id: 70
+  notes: 'BAD TASTE!! '
+  season:
+  - 'spring '
+  - ' summer'
+  seed_name: cinnamon basil
+  year_produced: '2019'
+- id: 71
+  min_full_sun: full  sun
+  season:
+  - annual (summer)
+  seed_name: korean dark green pepper
+  year_produced: '2019'
+- id: 72
+  ideal_temp: 70-90
+  min_full_sun: afternoon shade
+  plant_spacing: 18-36
+  season:
+  - summer
+  seed_name: chicago pickling cucumber
+  year_produced: '2019'
+- id: 73
+  min_full_sun: 8-12
+  notes: 'actually a melon '
+  plant_spacing: 18-36
+  season:
+  - summer
+  seed_name: armenian yard long cucumber
+  year_produced: '2019'
+- days_to_harvest: 30-50
+  id: 74
+  ideal_temp: 50-55
+  plant_spacing: 4-6
+  season:
+  - 'fall '
+  - ' winter '
+  - ' spring'
+  seed_name: 'astro rocket argula '
+  year_produced: '2020'
+- days_to_harvest: '55'
+  id: 75
+  ideal_temp: 50-60
+  min_full_sun: partial shade
+  season:
+  - 'spring '
+  - ' winter '
+  - 'fall '
+  seed_name: jade gem lettuce
+  year_produced: '2014'
+- id: 76
+  plant_spacing: 8-12
+  season:
+  - 'fall '
+  - ' winter '
+  - ' spring'
+  seed_name: broad windsor fava bean
+  year_produced: '2016'
+- id: 77
+  plant_spacing: 8-12
+  season:
+  - 'fall '
+  - ' winter '
+  - ' spring '
+  - ' summer'
+  seed_name: cilantro
+  year_produced: '2019'
+- days_to_harvest: '65'
+  id: 78
+  notes: trellis
+  plant_spacing: '4'
+  season:
+  - 'winter '
+  - ' spring'
+  seed_name: sugar snap pea
+  year_produced: '2020'
+- days_to_harvest: 30-35
+  id: 79
+  plant_spacing: '1'
+  season:
+  - 'fall '
+  - ' winter spring '
+  seed_name: french breakfast radish
+  year_produced: '2020'
+- days_to_harvest: 90-110
+  id: 80
+  ideal_temp: 45-80
+  min_full_sun: 6-12
+  plant_spacing: 4-6
+  season:
+  - 'winter '
+  - spring
+  seed_name: carentan leek
+  year_produced: '2020'
+- days_to_harvest: '60'
+  id: 81
+  plant_spacing: '10'
+  season:
+  - 'fall '
+  - ' spring '
+  - summer
+  seed_name: 'little jade f1 napa cabbage '
+  year_produced: '2014'
+- days_to_harvest: '75'
+  id: 82
+  plant_spacing: '6'
+  season:
+  - 'fall '
+  - ' winter '
+  - spring
+  seed_name: vates collards
+  year_produced: '2019'
+- days_to_harvest: '60'
+  id: 83
+  season:
+  - 'fall '
+  - ' winter '
+  - spring
+  seed_name: chioggia beets
+  year_produced: '2019'
+- id: 84
+  notes: 'from anzen hardware little tokyo '
+  seed_name: shiso
+  year_produced: '2016'
+- days_to_harvest: '40'
+  id: 85
+  ideal_temp: 50-60
+  season:
+  - 'fall '
+  - 'winter '
+  - spring
+  seed_name: cut and come again mustard
+  year_produced: '2014'
+- days_to_harvest: 40-60
+  id: 86
+  min_full_sun: full sun
+  plant_spacing: 8-12
+  season:
+  - 'fall '
+  - 'winter '
+  - 'spring '
+  - ' summer'
+  seed_name: cilantro
+  year_produced: '2017'
+- id: 87
+  season:
+  - 'biennial '
+  seed_name: chervil
+  year_produced: '2017'
+- days_to_harvest: '50'
+  id: 88
+  ideal_temp: 65-75
+  seed_name: nero de toscana kale
+  year_produced: '2017'
+- days_to_harvest: '60'
+  id: 89
+  plant_spacing: '12'
+  season:
+  - 'fall '
+  - ' winter '
+  - ' spring'
+  seed_name: burpee swiss chard
+  year_produced: '2016'
+- id: 90
+  notes: unmarked
+  seed_name: italian parsey
