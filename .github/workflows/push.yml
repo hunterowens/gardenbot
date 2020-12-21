@@ -44,7 +44,7 @@ jobs:
         gcloud config set run/region us-west1
         gcloud config set project gardenbot-299305
         datasette publish cloudrun browse.db \
-          --service niche-museums \
+          --service gardenbot \
           --metadata metadata.yaml \
           --install=datasette-haversine \
           --install=datasette-pretty-json \
