@@ -10,8 +10,6 @@
   year_produced: '2020'
 - days_to_harvest: fall/winter/spring
   id: 1
-  season:
-  - unknown
   seed_name: linsay la lettuce
   year_produced: '2020'
 - days_to_harvest: '50'
