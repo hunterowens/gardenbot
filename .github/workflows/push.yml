@@ -31,8 +31,8 @@ jobs:
         pip install -r requirements.txt
     - name: Build browse.db database
       run: |-
-        wget https://niche-museums-j7hipcg4aq-uc.a.run.app/browse.db
-        yaml-to-sqlite browse.db museums museums.yaml --pk=id
+        wget https://gardenbot-uxehlftuua-uw.a.run.app/browse.db
+        yaml-to-sqlite gardenbot.db seeds gardenbot.yml --pk=id
     - name: Set up Cloud Run
       uses: google-github-actions/setup-gcloud@master
       with:
@@ -43,7 +43,7 @@ jobs:
       run: |-
         gcloud config set run/region us-west1
         gcloud config set project gardenbot-299305
-        datasette publish cloudrun browse.db \
+        datasette publish cloudrun gardenbot.db \
           --service gardenbot \
           --metadata metadata.yaml \
           --install=datasette-haversine \
