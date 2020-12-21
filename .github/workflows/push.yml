@@ -31,7 +31,7 @@ jobs:
         pip install -r requirements.txt
     - name: Build browse.db database
       run: |-
-        wget https://gardenbot-uxehlftuua-uw.a.run.app/browse.db
+        wget https://gardenbot-uxehlftuua-uw.a.run.app/gardenbot.db
         yaml-to-sqlite gardenbot.db seeds gardenbot.yml --pk=id
     - name: Set up Cloud Run
       uses: google-github-actions/setup-gcloud@master
