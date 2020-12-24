@@ -32,7 +32,7 @@ jobs:
     - name: Build browse.db database
       run: |-
         yaml-to-sqlite gardenbot.db seeds seeds.yml --pk=id
-        yaml-to-sqlite gardenbot.db seeds seedlings.yml 
+        yaml-to-sqlite gardenbot.db seedlings seedlings.yml 
     - name: Set up Cloud Run
       uses: google-github-actions/setup-gcloud@master
       with:
