@@ -34,4 +34,4 @@ jobs:
         run: |-
           python weekly_email.py
         env:
-          postmark_api_key: {{ secrets.POSTMARK_API_KEY }}
+          postmark_api_key: ${{ secrets.POSTMARK_API_KEY }}
