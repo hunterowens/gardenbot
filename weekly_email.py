@@ -2,9 +2,10 @@ from postmarker.core import PostmarkClient
 import os 
 import requests 
 import pandas as pd 
-import datetime 
+import datetime
+import sys
 
-TOKEN = os.environ.get('postmark_api_key')
+TOKEN = sys.argv[1]
 BASE_URL = 'https://gardenbot-uxehlftuua-uw.a.run.app'
 TODAY = datetime.date.today()
 

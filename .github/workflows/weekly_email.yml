@@ -32,6 +32,6 @@ jobs:
           pip install -r requirements.txt
       - name: run script 
         run: |-
-          python weekly_email.py
+          python weekly_email.py "$postmark_api_key"
         env:
           postmark_api_key: ${{ secrets.POSTMARK_API_KEY }}
