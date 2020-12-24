@@ -1,0 +1,33 @@
+name: send_weekly_email  
+
+on:
+  schedule: 
+    - cron: '0 0 * * 5'
+
+jobs:
+  send_email:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - name: Set up Python
+        uses: actions/setup-python@v1
+        with:
+          python-version: 3.8
+      - name: Install sqlite3
+        run: sudo apt-get install sqlite3
+      - uses: actions/cache@v1
+        name: Configure pip caching
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+      - name: Install Python dependencies
+        run: |-
+          pip install -r requirements.txt
+      - name: run script 
+        run: |-
+          python weekly_email.py
