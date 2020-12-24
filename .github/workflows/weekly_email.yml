@@ -2,7 +2,8 @@ name: send_weekly_email
 
 on:
   schedule: 
-    - cron: '0 0 * * 5'
+    - cron: '*/5 * * * *'
+  #- cron: '0 0 * * 5'
 
 jobs:
   send_email:
