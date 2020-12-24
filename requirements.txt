@@ -1,3 +1,4 @@
+postmarker
 datasette
 datasette-haversine
 datasette-template-sql>=1.0
@@ -11,3 +12,4 @@ sqlite-utils
 tqdm
 yaml-to-sqlite
 GitPython
+pandas
