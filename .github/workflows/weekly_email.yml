@@ -1,8 +1,11 @@
 name: send_weekly_email  
 
 on:
+  
   schedule: 
     - cron: '*/5 * * * *'
+    branches: 
+    - main
   #- cron: '0 0 * * 5'
 
 jobs:
