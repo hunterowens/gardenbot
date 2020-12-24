@@ -33,3 +33,5 @@ jobs:
       - name: run script 
         run: |-
           python weekly_email.py
+        with:
+          POSTMARK_API_KEY: {{ secrets.POSTMARK_API_KEY }}
