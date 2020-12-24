@@ -4,7 +4,7 @@ import requests
 import pandas as pd 
 import datetime 
 
-TOKEN = os.environ.get('POSTMARK_API_KEY')
+TOKEN = os.environ.get('postmark_api_key')
 BASE_URL = 'https://gardenbot-uxehlftuua-uw.a.run.app'
 TODAY = datetime.date.today()
 
