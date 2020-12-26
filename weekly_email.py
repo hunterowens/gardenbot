@@ -7,6 +7,7 @@ import sys
 
 TOKEN = os.environ.get('POSTMARK_API_KEY')
 print(TOKEN)
+print(os.environ)
 BASE_URL = 'https://gardenbot-uxehlftuua-uw.a.run.app'
 TODAY = datetime.date.today()
 
