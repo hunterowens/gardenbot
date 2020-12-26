@@ -5,7 +5,7 @@ on:
   push:
   pull_request:
   schedule:
-    - cron: '*/15 * * * *'
+    - cron: '0 0 * * 0'
 jobs:
   send_email:
     runs-on: ubuntu-latest

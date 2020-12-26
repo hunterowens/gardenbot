@@ -5,12 +5,11 @@ import pandas as pd
 import datetime
 import sys
 
-TOKEN = os.environ.get('postmark_api_key')
-print(TOKEN)
-print(os.environ)
+# GH actions weirdly adds a neline character 
+TOKEN = os.environ.get('postmark_api_key').strip('\n')
 BASE_URL = 'https://gardenbot-uxehlftuua-uw.a.run.app'
 TODAY = datetime.date.today()
-TOKEN = TOKEN.strip('\n')
+
 def get_seedlings():
   """
   Get's a list of seedlings from the API
