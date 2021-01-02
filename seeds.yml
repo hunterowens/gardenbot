@@ -893,3 +893,13 @@
     - "winter"
   year_produced: 2020
   min_full_sun: 4-8
+- id: 115
+  seed_name: Meot Jaeng I Ae Summer Squash
+  ideal_temp: 70-95
+  plant_spacing: 8
+  season:
+    - "summer"
+  year_produced: 2019
+  min_full_sun: 8-12
+  days_to_harvest: 65-70
+  need_to_reorder: True 
