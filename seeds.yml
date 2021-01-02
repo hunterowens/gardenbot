@@ -8,6 +8,7 @@
   - spring
   seed_name: scarlet kale
   year_produced: '2020'
+  need_to_reorder: False
 - days_to_harvest: fall/winter/spring
   id: 1
   seed_name: la lettuce
@@ -356,6 +357,7 @@
   - summer
   seed_name: 'lucid gem tomatoes '
   year_produced: '2019'
+  need_to_reorder: True
 - id: 49
   ideal_temp: 75-95
   indertiminate_determinate: inderminate
@@ -392,6 +394,7 @@
   - summer
   seed_name: queen of malinlgo tomatillo
   year_produced: '2019'
+  need_to_reorder: True
 - id: 53
   ideal_temp: 60-70
   indertiminate_determinate: inderminate
@@ -414,6 +417,7 @@
   - summer
   seed_name: get stuffed tomato
   year_produced: '2019'
+  need_to_reorder: True
 - id: 56
   ideal_temp: 75-95
   min_full_sun: 8-12
