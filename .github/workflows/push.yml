@@ -31,7 +31,6 @@ jobs:
         pip install -r requirements.txt
     - name: Build browse.db database
       run: |-
-        rm gardenbot.db
         yaml-to-sqlite gardenbot.db seeds seeds.yml --pk=id
         yaml-to-sqlite gardenbot.db seedlings seedlings.yml 
     - name: Set up Cloud Run
