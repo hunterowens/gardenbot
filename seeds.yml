@@ -10,7 +10,7 @@
   year_produced: '2020'
 - days_to_harvest: fall/winter/spring
   id: 1
-  seed_name: linsay la lettuce
+  seed_name: la lettuce
   year_produced: '2020'
 - days_to_harvest: '50'
   id: 2
@@ -700,3 +700,196 @@
 - id: 90
   notes: unmarked
   seed_name: italian parsey
+- id: 91
+  seed_name: "Butternut Rogosa Violiana Squash" 
+  year_produced: '2020'
+  ideal_temp: 70-90 
+  season: 
+  - 'Summer'
+  plant_spacing: 18-36
+- id: 92
+  seed_name: Brandywine Tomato
+  ideal_temp: 75-95
+  plant_spacing: 24
+  season: 
+  - "summer" 
+  year_produced: "2020" 
+  days_to_harvest: 90
+- id: 93  
+  seed_name: Paul Robeson Tomato
+  ideal_temp: 75-95
+  plant_spacing: 24
+  season: 
+  - "summer" 
+  year_produced: "2020" 
+  days_to_harvest: 90
+- id: 94  
+  seed_name: Kellogg Breakfast Tomato 
+  ideal_temp: 75-95
+  plant_spacing: 24
+  season: 
+  - "summer" 
+  year_produced: "2020" 
+  days_to_harvest: 90
+- id: 95  
+  seed_name: Cherokee Purple Tomato 
+  ideal_temp: 75-95
+  plant_spacing: 24
+  season: 
+  - "summer" 
+  year_produced: "2020" 
+  days_to_harvest: 90
+- id: 96  
+  seed_name: Tiger Cherry Roma Mix Tomato 
+  ideal_temp: 75-95
+  plant_spacing: 24
+  season: 
+  - "summer" 
+  year_produced: "2020" 
+  days_to_harvest: 60-90
+- id: 97 
+  seed_name: Pork Chop Tomato 
+  ideal_temp: 75-95
+  plant_spacing: 24
+  season: 
+  - "summer" 
+  year_produced: "2020" 
+  days_to_harvest: 75-85
+- id: 98
+  seed_name: Rohne de Nice Summer Squash
+  ideal_temp: 50-80
+  plant_spacing: 48
+  days_to_harvest: 48
+  season:
+    - "summer"
+  year_produced: 2020
+- id: 99
+  seed_name: Iranian Winter Squash
+  ideal_temp: 70-95
+  plant_spacing: 18-36
+  days_to_harvest: 110
+  season:
+    - "summer"
+  year_produced: 2020
+- id: 100
+  seed_name: Nimba Zucchini
+  ideal_temp: 50-80
+  plant_spacing: 36-48
+  days_to_harvest: 51-60
+  season:
+    - "summer"
+  year_produced: 2020
+- id: 101
+  seed_name: Buttercup Winter Squash
+  ideal_temp: 70-95
+  plant_spacing: 18-36
+  days_to_harvest: 50-55
+  season:
+    - "summer"
+  year_produced: 2020
+- id: 102
+  seed_name: Txorixdero Sweet Pepper 
+  ideal_temp: 70-95
+  plant_spacing: 18
+  season:
+    - "biennial"
+  year_produced: 2021
+- id: 103
+  seed_name: Jalapeno Pepper 
+  ideal_temp: 70-95
+  plant_spacing: 18
+  season:
+    - "biennial"
+  year_produced: 2020
+- id: 104
+  seed_name: Pepper Aji Charapita 
+  ideal_temp: 70-95
+  plant_spacing: 18
+  season:
+    - "biennial"
+  year_produced: 2020
+- id: 105
+  seed_name: Poblano Pepper 
+  ideal_temp: 70-95
+  plant_spacing: 18
+  season:
+    - "biennial"
+  year_produced: 2020
+- id: 106
+  seed_name: Serrano Pepper 
+  ideal_temp: 70-95
+  plant_spacing: 18
+  season:
+    - "biennial"
+  year_produced: 2020
+- id: 107
+  seed_name: Rich Sweetness Melon 
+  ideal_temp: 70-95
+  plant_spacing: 12
+  season:
+    - "summer"
+  year_produced: 2020
+  num_packets: 2
+- id: 108
+  seed_name: Rosita Eggplant 
+  ideal_temp: 70-95
+  plant_spacing: 18-24
+  season:
+    - "summer"
+  year_produced: 2020
+- id: 109
+  seed_name: Heavy Hitter Okra
+  ideal_temp: 70-95
+  plant_spacing: 18
+  season:
+    - "summer"
+  year_produced: 2020
+- id: 110
+  seed_name: Rouge d'Hiver Luttce
+  ideal_temp: 60-80
+  plant_spacing: 8
+  season:
+    - "spring"
+    - "fall"
+  year_produced: 2020
+  min_full_sun: 4-8
+- id: 111
+  seed_name: common chives
+  ideal_temp: 55-60
+  plant_spacing: 3-9
+  season:
+    - "spring"
+    - "fall"
+    - "winter"
+  year_produced: 2020
+  min_full_sun: 2-6
+- id: 112
+  seed_name: Sugar Daddy Peas
+  ideal_temp: 45-80
+  plant_spacing: 4
+  season:
+    - "spring"
+    - "fall"
+    - "winter"
+    - "summer"
+  year_produced: 2020
+  min_full_sun: 6-12
+- id: 113
+  seed_name: Jade Beans 
+  ideal_temp: 70-80
+  plant_spacing: 4
+  season:
+    - "spring"
+    - "summer"
+  year_produced: 2020
+  min_full_sun: 8-12
+- id: 114
+  seed_name: Buttercrunch Lettuce
+  ideal_temp: 60-80
+  plant_spacing: 8
+  season:
+    - "spring"
+    - "fall"
+    - "winter"
+  year_produced: 2020
+  min_full_sun: 4-8
