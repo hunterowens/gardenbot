@@ -10,7 +10,7 @@
   year_produced: '2020'
 - days_to_harvest: fall/winter/spring
   id: 1
-  seed_name: linsay la lettuce
+  seed_name: la lettuce
   year_produced: '2020'
 - days_to_harvest: '50'
   id: 2
