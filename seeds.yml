@@ -408,6 +408,7 @@
   season:
   - summer
   seed_name: everglades cherry tomato
+  num_packets: 2
 - id: 55
   ideal_temp: 75-95
   indertiminate_determinate: inderminate
@@ -1095,3 +1096,170 @@
   - "spring"
   year_produced: "2021" 
   days_to_harvest: 80-90
+- id: 134
+  is_flower: 'yes'
+  seed_name: Censation Mix Cosmos
+- id: 135
+  is_flower: 'yes'
+  seed_name: African Marigold Crackerjack Mix
+- id: 136
+  seed_name: Sugar Ann Snap pea
+  ideal_temp: 50-65
+  plant_spacing: 2
+  season: 
+  - "summer" 
+  - "fall"
+  - "spring"
+  year_produced: "2021" 
+  days_to_harvest: 50
+- id: 137
+  seed_name: Hungarian Paprika Peppers
+  ideal_temp: 80-90
+  plant_spacing: 14-16
+  season: 
+  - annual (summer)
+  year_produced: "2021" 
+  days_to_harvest: 50
+- id: 138
+  ideal_temp: 75-95
+  indertiminate_determinate: inderminate
+  min_full_sun: 8-12
+  plant_spacing: '24'
+  season:
+  - summer
+  seed_name: Green Grape Cherry Tomato
+  year_produced: '2021'
+- id: 139
+  ideal_temp: 75-95
+  indertiminate_determinate: determinate
+  min_full_sun: 8-12
+  plant_spacing: '24'
+  season:
+  - summer
+  seed_name: Hungarian Italian Paste
+  year_produced: '2021'
+- id: 140
+  ideal_temp: 75-95
+  indertiminate_determinate: determinate
+  min_full_sun: 8-12
+  plant_spacing: '24'
+  season:
+  - summer
+  seed_name: Mountaineer Delight Tomato
+  year_produced: '2021'
+- id: 141
+  ideal_temp: 75-95
+  indertiminate_determinate: indeterminate
+  min_full_sun: 8-12
+  plant_spacing: '24'
+  season:
+  - summer
+  seed_name: Matt Wild Cherry
+  year_produced: '2021'
+- id: 142
+  seed_name: Lemon Organic Cucumber
+  ideal_temp: 65-95
+  plant_spacing: 6-12
+  season: 
+  - "summer" 
+  - "fall"
+  - "spring"
+  year_produced: "2021" 
+  days_to_harvest: 50-70
+- id: 143
+  seed_name: Edisto 47 Melon
+  ideal_temp: 70-95
+  plant_spacing: 12-18
+  season: 
+  - "summer" 
+  year_produced: "2021" 
+  days_to_harvest: 90
+- id: 144
+  seed_name: Golden Jenny Melon
+  ideal_temp: 70-95
+  plant_spacing: 12-18
+  season: 
+  - "summer" 
+  year_produced: "2021" 
+  days_to_harvest: 90
+- id: 145
+  seed_name: Ice Cream Melon
+  ideal_temp: 70-95
+  plant_spacing: 12-18
+  season: 
+  - "summer" 
+  year_produced: "2021" 
+  days_to_harvest: 90
+- id: 146
+  seed_name: Noir de Carnes Melon
+  ideal_temp: 70-95
+  plant_spacing: 12-18
+  season: 
+  - "summer" 
+  year_produced: "2021" 
+  days_to_harvest: 90
+- id: 147
+  seed_name: Sierra Lettuce
+  ideal_temp: 50-80
+  plant_spacing: 6-12
+  season: 
+  - "summer" 
+  - "Spring"
+  - "fall"
+  - "winter"
+  year_produced: "2021" 
+  days_to_harvest: 40
+- id: 148
+  seed_name: Jericho Lettuce
+  ideal_temp: 50-80
+  plant_spacing: 6-12
+  season: 
+  - "Spring"
+  - "fall"
+  - "winter"
+  year_produced: "2021" 
+  days_to_harvest: 40
+- id: 149
+  seed_name: Tokyo Long White Green Onion
+  ideal_temp: 50-95
+  plant_spacing: 3-4
+  season: 
+  - "Spring"
+  - "fall"
+  - "winter"
+  - "summer"
+  year_produced: "2021" 
+  days_to_harvest: 60
+- id: 151
+  seed_name: Calendula
+  ideal_temp: 50-95
+  plant_spacing: 3-4
+  season: 
+  - "Spring"
+  - "fall"
+  - "winter"
+  - "summer"
+  year_produced: "2021" 
+  is_flower: "yes"
+- id: 152
+  seed_name: Borrage
+  ideal_temp: 50-95
+  plant_spacing: 3-4
+  season: 
+  - "Spring"
+  - "fall"
+  - "winter"
+  - "summer"
+  year_produced: "2021" 
+  is_flower: "yes"
+- id: 153
+  seed_name: Purple Coneflower - Echinecea Purplea
+  ideal_temp: 50-95
+  plant_spacing: 3-4
+  season: 
+  - "Spring"
+  - "fall"
+  - "winter"
+  - "summer"
+  year_produced: "2021" 
+  is_flower: "yes"
