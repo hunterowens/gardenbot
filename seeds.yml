@@ -526,6 +526,7 @@
   - ' summer '
   seed_name: green leaf holy basil
   year_produced: '2020'
+  num_packets: 2
 - id: 68
   season:
   - summer
@@ -907,3 +908,190 @@
   min_full_sun: 8-12
   days_to_harvest: 65-70
   need_to_reorder: True 
+- id: 116
+  seed_name: Thai Eggplant Round Purple 
+  ideal_temp: 70-95
+  plant_spacing: 18-24
+  season:
+    - "summer"
+  year_produced: 2021
+  min_full_sun: 8-12
+  days_to_harvest: 50-55
+- id: 117
+  seed_name: Tokiwa Cucumber 
+  ideal_temp: 60-85
+  plant_spacing: 10-12
+  season:
+    - "spring"
+    - "summer"
+  year_produced: 2021
+  min_full_sun: 8-12
+  days_to_harvest: 55-60
+- id: 118
+  seed_name: Asia Eun Cheon Korean Cucumber 
+  ideal_temp: 70-95
+  plant_spacing: 10-12
+  season:
+    - "spring"
+    - "summer"
+  year_produced: 2021
+  min_full_sun: 8-12
+  days_to_harvest: 50-55
+- id: 119
+  seed_name: Chinese Celery Dark Green Kintsai 
+  ideal_temp: 50-65
+  plant_spacing: 6-10
+  season:
+    - "spring"
+    - "winter"
+    - "fall"
+  year_produced: 2021
+  min_full_sun: 8-12
+  days_to_harvest: 30-59
+- id: 120
+  seed_name: Sungold Cherry Tomato
+  ideal_temp: 75-95
+  plant_spacing: 24
+  season: 
+  - "summer" 
+  year_produced: "2021" 
+  days_to_harvest: 60
+  indertiminate_determinate: inderminate
+- id: 121
+  seed_name: Katana Tomato
+  ideal_temp: 75-95
+  plant_spacing: 24
+  season: 
+  - "summer" 
+  year_produced: "2021" 
+  days_to_harvest: 60
+  indertiminate_determinate: semi-determinate
+- id: 122
+  seed_name: Ishikura Improved Green Onion
+  ideal_temp: 50-80
+  plant_spacing: 2
+  season: 
+  - "summer" 
+  - "fall"
+  - "winter"
+  - "spring"
+  year_produced: "2021" 
+  days_to_harvest: 40-50
+- id: 123
+  seed_name: Yu Long Yard Long Bean
+  ideal_temp: 65-85
+  plant_spacing: 6-8
+  season: 
+  - "summer" 
+  - "fall"
+  - "spring"
+  year_produced: "2021" 
+  days_to_harvest: 70
+- id: 124
+  seed_name: Red Noodle Yard Long Bean
+  ideal_temp: 65-85
+  plant_spacing: 6-8
+  season: 
+  - "summer" 
+  - "fall"
+  - "spring"
+  year_produced: "2021" 
+  days_to_harvest: 50-80
+- id: 124
+  seed_name: Taiwanese Letucce New Yu Mai A Choy
+  ideal_temp: 65-70
+  plant_spacing: 6-8
+  season: 
+  - "summer" 
+  - "fall"
+  - "spring"
+  year_produced: "2021" 
+  days_to_harvest: 50-60
+- id: 125
+  seed_name: Mustard Salad Lead Miz America 
+  ideal_temp: 65-70
+  plant_spacing: 6-8
+  season: 
+  - "summer" 
+  - "fall"
+  - "spring"
+  year_produced: "2021" 
+  days_to_harvest: 20-45
+- id: 126
+  seed_name: Mustard Miike Giant 
+  ideal_temp: 65-70
+  plant_spacing: 6-8
+  season: 
+  - "summer" 
+  - "fall"
+  - "spring"
+  - Winter
+  year_produced: "2021" 
+  days_to_harvest: 40
+- id: 127
+  seed_name: Mustard Chinese (sichaun) 
+  ideal_temp: 45-70
+  plant_spacing: 6-8
+  season: 
+  - "summer" 
+  - "fall"
+  - "spring"
+  - Winter
+  year_produced: "2021" 
+  days_to_harvest: 60-70
+- id: 128
+  seed_name: Himo Togarashi Pepper 
+  ideal_temp: 80-90
+  plant_spacing: 14-16
+  season: 
+  - "summer" 
+  year_produced: "2021" 
+  days_to_harvest: 80-90
+- id: 129
+  seed_name: Gochujiang King Pepper
+  ideal_temp: 80-90
+  plant_spacing: 14-16
+  season: 
+  - "summer" 
+  year_produced: "2021" 
+  days_to_harvest: 100-140
+- id: 130
+  seed_name: Japanese Akarenso Spinch 
+  ideal_temp: 50-68
+  plant_spacing: 4-6
+  season: 
+  - "spring"
+  - "fall"
+  - "summer" 
+  year_produced: "2021" 
+  days_to_harvest: 50
+- id: 131
+  seed_name: Dark Green Yard Long Bean
+  ideal_temp: 65-85
+  plant_spacing: 6-8
+  season: 
+  - "summer" 
+  - "fall"
+  - "spring"
+  year_produced: "2021" 
+  days_to_harvest: 70
+- id: 132
+  seed_name: Thai Basil - Sweet Large Leaf
+  ideal_temp: 65-85
+  plant_spacing: 8-10
+  season: 
+  - "summer" 
+  - "fall"
+  - "spring"
+  year_produced: "2021" 
+  days_to_harvest: 70-80
+- id: 133
+  seed_name: Culantro Ngo Gai
+  ideal_temp: 65-85
+  plant_spacing: 4-6
+  season: 
+  - "summer" 
+  - "fall"
+  - "spring"
+  year_produced: "2021" 
+  days_to_harvest: 80-90
