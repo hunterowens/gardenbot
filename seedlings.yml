@@ -10,6 +10,7 @@
   days_to_transplant: 40
   num_seedlings: 5
   location: grow light
+  transplanted: 2021-01-23
 - seed_id: 1
   date_planted: 2020-12-20
   container: 6pack 
@@ -17,24 +18,28 @@
   container: 6pack
   num_seedlings: 6
   location: grow light
+  transplanted: 2021-01-15
 - seed_id: 0 
   date_planted: 2020-12-20
   container: 4x4
   days_to_transplant: 42
   num_seedlings: 5
   location: grow light 
+  transplanted: 2021-01-23
 - seed_id: 3 
   date_planted: 2020-12-20
   container: 4x4
   days_to_transplant: 42
   num_seedlings: 5
   location: grow light 
+  transplanted: 2021-01-23
 - seed_id: 80 
   date_planted: 2020-10-15
   container: 4x4
   location: outside 
   num_seedlings: 5
   days_to_transplant: 100 
+  transplanted: 2021-01-15
 - seed_id: 111 
   date_planted: 2021-01-02
   container: 6pack 
@@ -70,6 +75,7 @@
   container: 6pack
   num_seedlings: 6
   location: grow light
+  transplanted: False
 - seed_id: 30 
   date_planted: 2021-01-02
   container: 6pack 
