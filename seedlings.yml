@@ -209,12 +209,11 @@
   container: 6pack
   num_seedlings: 6
   location: grow light
-- seed_id: 97
-  date_planted: 2021-01-02
-  container: 6pack 
+- seed_id: 141
+  date_planted: 2021-01-23
   days_to_transplant: 49
-  container: 6pack
-  num_seedlings: 6
+  container: 4x4
+  num_seedlings: 4
   location: grow light
 - seed_id: 102
   date_planted: 2021-01-23
