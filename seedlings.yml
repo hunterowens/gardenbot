@@ -83,6 +83,7 @@
   container: 6pack
   num_seedlings: 6
   location: grow light
+  transplanted: False
 - seed_id: 33 
   date_planted: 2021-01-02
   container: 6pack 
@@ -97,6 +98,7 @@
   container: 6pack
   num_seedlings: 6
   location: grow light
+  transplanted: False
 - seed_id: 49 
   date_planted: 2021-01-02
   container: 6pack 
