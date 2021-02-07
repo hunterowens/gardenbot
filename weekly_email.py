@@ -5,8 +5,11 @@ import pandas as pd
 import datetime
 import sys
 
-# GH actions weirdly adds a neline character 
-TOKEN = os.environ.get('postmark_api_key').strip('\n')
+# GH actions weirdly adds a neline character
+if 'postmark_api_key' in os.environ:
+    TOKEN = os.environ.get('postmark_api_key').strip('\n')
+else: 
+    TOKEN = os.environ.get('POSTMARK_API_KEY')
 BASE_URL = 'https://gardenbot-uxehlftuua-uw.a.run.app'
 TODAY = datetime.date.today()
 
@@ -18,9 +21,11 @@ def get_seedlings():
   r = requests.get(f'{BASE_URL}/gardenbot.json?_shape=array&sql=select%0D%0A++*%0D%0Afrom%0D%0A++seedlings%0D%0A++inner+JOIN+seeds+on+seed_id+%3D+id%3B')
   df = pd.DataFrame.from_dict(r.json())
   df['date_planted'] = pd.to_datetime(df.date_planted)
+  df['transplanted'] = pd.to_datetime(df.transplanted, errors='coerce')
   df = df.assign(today = pd.to_datetime(TODAY))
   df = df.assign(days_to_transplant = df.days_to_transplant.apply(lambda x: pd.Timedelta(x, unit='d')))
   df = df.assign(time_remaining = df.days_to_transplant - (df.today - df.date_planted))
+  df = df[df.transplanted.isnull()]
   return df
 
 def generate_seedlings_report(seedlings = get_seedlings()):
