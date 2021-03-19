@@ -1263,3 +1263,20 @@
   - "summer"
   year_produced: "2021" 
   is_flower: "yes"
+- id: 154
+  ideal_temp: 70-95
+  min_full_sun: 'full sun '
+  plant_spacing: 12-18
+  season:
+  - summer
+  seed_name: 'bidwell melon'
+  year_produced: '2021'
+- id: 155
+  ideal_temp: 70-95
+  min_full_sun: 'full sun '
+  plant_spacing: 12-18
+  season:
+    - summer
+  seed_name: 'montreal melon'
+  year_produced: '2021'
+
